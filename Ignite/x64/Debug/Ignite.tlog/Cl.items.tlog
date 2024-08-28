@@ -1,0 +1,14 @@
+C:\Users\nosas\source\repos\Ignite\Ignite\Hooks\DirectX\D3D11Hook.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\D3D11Hook.obj
+C:\Users\nosas\source\repos\Ignite\Ignite\Hooks\DirectX\D3D11Hook.h;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\D3D11Hook.h.obj
+C:\Users\nosas\source\repos\Ignite\Ignite\Hooks\Win32\WndProcHook.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\WndProcHook.obj
+C:\Users\nosas\source\repos\Ignite\Ignite\Libraries\imgui\backends\imgui_impl_dx11.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\imgui_impl_dx11.obj
+C:\Users\nosas\source\repos\Ignite\Ignite\Libraries\imgui\backends\imgui_impl_win32.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\imgui_impl_win32.obj
+C:\Users\nosas\source\repos\Ignite\Ignite\Libraries\imgui\imgui.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\imgui.obj
+C:\Users\nosas\source\repos\Ignite\Ignite\Libraries\imgui\imgui_demo.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\imgui_demo.obj
+C:\Users\nosas\source\repos\Ignite\Ignite\Libraries\imgui\imgui_draw.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\imgui_draw.obj
+C:\Users\nosas\source\repos\Ignite\Ignite\Libraries\imgui\imgui_tables.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\imgui_tables.obj
+C:\Users\nosas\source\repos\Ignite\Ignite\Libraries\imgui\imgui_widgets.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\imgui_widgets.obj
+C:\Users\nosas\source\repos\Ignite\Ignite\Libraries\imgui\misc\freetype\imgui_freetype.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\imgui_freetype.obj
+C:\Users\nosas\source\repos\Ignite\Ignite\Libraries\kiero\kiero.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\kiero.obj
+C:\Users\nosas\source\repos\Ignite\Ignite\Main.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\Main.obj
+C:\Users\nosas\source\repos\Ignite\Ignite\Renderer\D2DRenderer.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\D2DRenderer.obj

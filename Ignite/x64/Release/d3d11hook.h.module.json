@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Release\\D3D11Hook.h.obj",
+            "outputs": [
+                "C:\\Users\\nosas\\source\\repos\\Ignite\\Ignite\\x64\\Release\\vc143.pdb",
+                "x64\\Release\\",
+                "C:\\Users\\nosas\\source\\repos\\Ignite\\Ignite\\x64\\Release\\D3D11Hook.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "Hooks\\DirectX\\D3D11Hook.h",
+                    "source-path": "c:\\users\\nosas\\source\\repos\\ignite\\ignite\\hooks\\directx\\d3d11hook.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}
