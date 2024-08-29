@@ -64,6 +64,7 @@ HRESULT __stdcall hkPresent(IDXGISwapChain* SwapChain, UINT SyncInterval, UINT F
 	D2DRenderer::Context->BeginDraw();
 
 	//render d2d here
+	D2DRenderer::RenderBlurRect(D2D1::RoundedRect(D2D1::RectF(0, 0, 1920, 1080), 0, 0));
 
 	D2DRenderer::Context->EndDraw();
 

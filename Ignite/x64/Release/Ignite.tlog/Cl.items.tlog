@@ -11,4 +11,6 @@ C:\Users\nosas\source\repos\Ignite\Ignite\Libraries\imgui\imgui_widgets.cpp;C:\U
 C:\Users\nosas\source\repos\Ignite\Ignite\Libraries\imgui\misc\freetype\imgui_freetype.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Release\imgui_freetype.obj
 C:\Users\nosas\source\repos\Ignite\Ignite\Libraries\kiero\kiero.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Release\kiero.obj
 C:\Users\nosas\source\repos\Ignite\Ignite\Main.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Release\Main.obj
+C:\Users\nosas\source\repos\Ignite\Ignite\Module\Module.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Release\Module.obj
+C:\Users\nosas\source\repos\Ignite\Ignite\Module\ModuleManager.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Release\ModuleManager.obj
 C:\Users\nosas\source\repos\Ignite\Ignite\Renderer\D2DRenderer.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Release\D2DRenderer.obj

@@ -16,7 +16,7 @@ public:
 	int Keybind;
 	bool IsEnabled;
 
-	Module(std::string name, std::string desc, Category cat, int keybind = 0x0, bool isEnabled = false);
+	Module(std::string name, std::string desc, Category cat, int keybind, bool isEnabled);
 
 	virtual void OnD2DRender();
 	virtual void OnImGuiRender();

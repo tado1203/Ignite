@@ -11,4 +11,7 @@ C:\Users\nosas\source\repos\Ignite\Ignite\Libraries\imgui\imgui_widgets.cpp;C:\U
 C:\Users\nosas\source\repos\Ignite\Ignite\Libraries\imgui\misc\freetype\imgui_freetype.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\imgui_freetype.obj
 C:\Users\nosas\source\repos\Ignite\Ignite\Libraries\kiero\kiero.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\kiero.obj
 C:\Users\nosas\source\repos\Ignite\Ignite\Main.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\Main.obj
+C:\Users\nosas\source\repos\Ignite\Ignite\Module\Module.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\Module.obj
+C:\Users\nosas\source\repos\Ignite\Ignite\Module\ModuleManager.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\ModuleManager.obj
 C:\Users\nosas\source\repos\Ignite\Ignite\Renderer\D2DRenderer.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\D2DRenderer.obj
+C:\Users\nosas\source\repos\Ignite\Ignite\Renderer\Effect\Blur.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\Blur.obj

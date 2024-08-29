@@ -158,7 +158,9 @@
     <ClCompile Include="Libraries\kiero\kiero.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Module\Module.cpp" />
+    <ClCompile Include="Module\ModuleManager.cpp" />
     <ClCompile Include="Renderer\D2DRenderer.cpp" />
+    <ClCompile Include="Renderer\Effect\Blur.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Hooks\Win32\WndProcHook.h" />
@@ -262,6 +264,33 @@
     <ClInclude Include="Libraries\freetype\freetype\tttables.h" />
     <ClInclude Include="Libraries\freetype\freetype\tttags.h" />
     <ClInclude Include="Libraries\freetype\ft2build.h" />
+    <ClInclude Include="Libraries\IL2CPP_Resolver\API\Callback.hpp" />
+    <ClInclude Include="Libraries\IL2CPP_Resolver\API\Class.hpp" />
+    <ClInclude Include="Libraries\IL2CPP_Resolver\API\Domain.hpp" />
+    <ClInclude Include="Libraries\IL2CPP_Resolver\API\ResolveCall.hpp" />
+    <ClInclude Include="Libraries\IL2CPP_Resolver\API\String.hpp" />
+    <ClInclude Include="Libraries\IL2CPP_Resolver\API\Thread.hpp" />
+    <ClInclude Include="Libraries\IL2CPP_Resolver\Data.hpp" />
+    <ClInclude Include="Libraries\IL2CPP_Resolver\Defines.hpp" />
+    <ClInclude Include="Libraries\IL2CPP_Resolver\IL2CPP_Resolver.hpp" />
+    <ClInclude Include="Libraries\IL2CPP_Resolver\SystemTypeCache.hpp" />
+    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\API\Camera.hpp" />
+    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\API\Component.hpp" />
+    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\API\GameObject.hpp" />
+    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\API\LayerMask.hpp" />
+    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\API\Object.hpp" />
+    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\API\Rigidbody.hpp" />
+    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\API\Transform.hpp" />
+    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\Defines.hpp" />
+    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\Obfuscators.hpp" />
+    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\Structures\Engine.hpp" />
+    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\Structures\il2cpp.hpp" />
+    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\Structures\il2cppArray.hpp" />
+    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\Structures\il2cppDictionary.hpp" />
+    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\Structures\System_String.hpp" />
+    <ClInclude Include="Libraries\IL2CPP_Resolver\Utils\Hash.hpp" />
+    <ClInclude Include="Libraries\IL2CPP_Resolver\Utils\Helper.hpp" />
+    <ClInclude Include="Libraries\IL2CPP_Resolver\Utils\VTable.hpp" />
     <ClInclude Include="Libraries\imgui\backends\imgui_impl_dx11.h" />
     <ClInclude Include="Libraries\imgui\backends\imgui_impl_win32.h" />
     <ClInclude Include="Libraries\imgui\imconfig.h" />
@@ -274,7 +303,9 @@
     <ClInclude Include="Libraries\kiero\kiero.h" />
     <ClInclude Include="Libraries\minhook\MinHook.h" />
     <ClInclude Include="Module\Module.h" />
+    <ClInclude Include="Module\ModuleManager.h" />
     <ClInclude Include="Renderer\D2DRenderer.h" />
+    <ClInclude Include="Renderer\Effect\Blur.h" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="Libraries\freetype\freetype.lib" />
