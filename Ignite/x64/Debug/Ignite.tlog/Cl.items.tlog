@@ -1,3 +1,6 @@
+C:\Users\nosas\source\repos\Ignite\Ignite\Game\Offsets.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\Offsets.obj
+C:\Users\nosas\source\repos\Ignite\Ignite\Game\SDK\Player\Player.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\Player.obj
+C:\Users\nosas\source\repos\Ignite\Ignite\Game\SDK\SDK.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\SDK.obj
 C:\Users\nosas\source\repos\Ignite\Ignite\Hooks\DirectX\D3D11Hook.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\D3D11Hook.obj
 C:\Users\nosas\source\repos\Ignite\Ignite\Hooks\DirectX\D3D11Hook.h;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\D3D11Hook.h.obj
 C:\Users\nosas\source\repos\Ignite\Ignite\Hooks\Win32\WndProcHook.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\WndProcHook.obj
@@ -15,3 +18,4 @@ C:\Users\nosas\source\repos\Ignite\Ignite\Module\Module.cpp;C:\Users\nosas\sourc
 C:\Users\nosas\source\repos\Ignite\Ignite\Module\ModuleManager.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\ModuleManager.obj
 C:\Users\nosas\source\repos\Ignite\Ignite\Renderer\D2DRenderer.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\D2DRenderer.obj
 C:\Users\nosas\source\repos\Ignite\Ignite\Renderer\Effect\Blur.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\Blur.obj
+C:\Users\nosas\source\repos\Ignite\Ignite\Utils\Math.cpp;C:\Users\nosas\source\repos\Ignite\Ignite\x64\Debug\Math.obj

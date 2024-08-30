@@ -21,9 +21,8 @@ namespace D2DRenderer
 		ID2D1Bitmap* bitmap = nullptr;
 		CopyBitmap(Bitmap, &bitmap);
 		BlurEffect->SetInput(0, bitmap);
-		bitmap->Release();
 
-		BlurEffect->SetValue(D2D1_GAUSSIANBLUR_PROP_STANDARD_DEVIATION, 10.f);
+		bitmap->Release();
 
 		ID2D1Image* image;
 		BlurEffect->GetOutput(&image);
@@ -36,11 +35,12 @@ namespace D2DRenderer
 		image->Release();
 	}
 
-	void RenderBlurRect(D2D1_ROUNDED_RECT rect)
+	void RenderBlurRect(D2D1_ROUNDED_RECT rect, float amount)
 	{
+		BlurEffect->SetValue(D2D1_GAUSSIANBLUR_PROP_STANDARD_DEVIATION, amount);
+
 		ID2D1RoundedRectangleGeometry* geometry;
 		Factory->CreateRoundedRectangleGeometry(rect, &geometry);
-
 		Context->FillGeometry(geometry, BlurBrush);
 
 		geometry->Release();

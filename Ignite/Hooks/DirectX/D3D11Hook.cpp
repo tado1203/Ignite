@@ -9,6 +9,8 @@
 #include "D3D11Hook.h"
 #include "../Win32/WndProcHook.h"
 #include "../../Renderer/D2DRenderer.h"
+#include "../../Renderer/Effect/Blur.h"
+#include "../../Module/ModuleManager.h"
 
 typedef HRESULT(__stdcall* Present)(IDXGISwapChain*, UINT, UINT);
 Present oPresent;
@@ -55,20 +57,29 @@ HRESULT __stdcall hkPresent(IDXGISwapChain* SwapChain, UINT SyncInterval, UINT F
 		}
 	}
 
+	D2DRenderer::Context->BeginDraw();
+
+	//render d2d here
+	for (auto module : ModuleManager::ModuleList)
+	{
+		module.OnD2DRender();
+	}
+
+	D2DRenderer::UpdateBlur();
+
+	D2DRenderer::RenderBlurRect(D2D1::RoundedRect(D2D1::RectF(0, 0, 1920, 1080), 0, 0), 10.f);
+
+	D2DRenderer::Context->EndDraw();
+
 	ImGui_ImplDX11_NewFrame();
 	ImGui_ImplWin32_NewFrame();
 	ImGui::NewFrame();
 
-	D2DRenderer::UpdateBlur();
-
-	D2DRenderer::Context->BeginDraw();
-
-	//render d2d here
-	D2DRenderer::RenderBlurRect(D2D1::RoundedRect(D2D1::RectF(0, 0, 1920, 1080), 0, 0));
-
-	D2DRenderer::Context->EndDraw();
-
 	//render imgui here
+	for (auto module : ModuleManager::ModuleList)
+	{
+		module.OnImGuiRender();
+	}
 
 	ImGui::Render();
 

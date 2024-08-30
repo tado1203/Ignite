@@ -20,6 +20,7 @@ public:
 
 	virtual void OnD2DRender();
 	virtual void OnImGuiRender();
+	virtual void OnUpdate();
 
 	void Toggle();
 };

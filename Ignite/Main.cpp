@@ -1,7 +1,10 @@
 ﻿#include <Windows.h>
 #include <iostream>
 
+#include "Game/Offsets.h"
+#include "Game/SDK/SDK.h"
 #include "Hooks/DirectX/D3D11Hook.h"
+#include "Module/ModuleManager.h"
 
 #pragma comment(lib, "d2d1.lib")
 #pragma comment(lib, "dxguid.lib")
@@ -17,7 +20,10 @@ void Init()
 
     freopen_s((FILE**)stdout, "CONOUT$", "w", stdout);
 
+    Offsets::Init();
+    SDK::Init();
     D3D11Hook::Init();
+    ModuleManager::Init();
 }
 
 BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserved)

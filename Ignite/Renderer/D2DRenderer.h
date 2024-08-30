@@ -10,8 +10,4 @@ namespace D2DRenderer
 	void Init(IDXGISurface* dxgiSurface);
 
 	void CopyBitmap(ID2D1Bitmap1* src, ID2D1Bitmap** dst);
-
-	void UpdateBlur();
-
-	void RenderBlurRect(D2D1_ROUNDED_RECT rect);
 }

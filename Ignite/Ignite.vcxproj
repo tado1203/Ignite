@@ -108,7 +108,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;IGNITE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;IGNITE_EXPORTS;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
@@ -127,7 +127,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;IGNITE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;IGNITE_EXPORTS;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
@@ -144,6 +144,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Game\Offsets.cpp" />
+    <ClCompile Include="Game\SDK\Player\Player.cpp" />
+    <ClCompile Include="Game\SDK\SDK.cpp" />
     <ClCompile Include="Hooks\DirectX\D3D11Hook.cpp" />
     <ClCompile Include="Hooks\DirectX\D3D11Hook.h" />
     <ClCompile Include="Hooks\Win32\WndProcHook.cpp" />
@@ -161,8 +164,12 @@
     <ClCompile Include="Module\ModuleManager.cpp" />
     <ClCompile Include="Renderer\D2DRenderer.cpp" />
     <ClCompile Include="Renderer\Effect\Blur.cpp" />
+    <ClCompile Include="Utils\Math.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Game\Offsets.h" />
+    <ClInclude Include="Game\SDK\Player\Player.h" />
+    <ClInclude Include="Game\SDK\SDK.h" />
     <ClInclude Include="Hooks\Win32\WndProcHook.h" />
     <ClInclude Include="Libraries\freetype\freetype\config\ftconfig.h" />
     <ClInclude Include="Libraries\freetype\freetype\config\ftheader.h" />
@@ -264,33 +271,6 @@
     <ClInclude Include="Libraries\freetype\freetype\tttables.h" />
     <ClInclude Include="Libraries\freetype\freetype\tttags.h" />
     <ClInclude Include="Libraries\freetype\ft2build.h" />
-    <ClInclude Include="Libraries\IL2CPP_Resolver\API\Callback.hpp" />
-    <ClInclude Include="Libraries\IL2CPP_Resolver\API\Class.hpp" />
-    <ClInclude Include="Libraries\IL2CPP_Resolver\API\Domain.hpp" />
-    <ClInclude Include="Libraries\IL2CPP_Resolver\API\ResolveCall.hpp" />
-    <ClInclude Include="Libraries\IL2CPP_Resolver\API\String.hpp" />
-    <ClInclude Include="Libraries\IL2CPP_Resolver\API\Thread.hpp" />
-    <ClInclude Include="Libraries\IL2CPP_Resolver\Data.hpp" />
-    <ClInclude Include="Libraries\IL2CPP_Resolver\Defines.hpp" />
-    <ClInclude Include="Libraries\IL2CPP_Resolver\IL2CPP_Resolver.hpp" />
-    <ClInclude Include="Libraries\IL2CPP_Resolver\SystemTypeCache.hpp" />
-    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\API\Camera.hpp" />
-    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\API\Component.hpp" />
-    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\API\GameObject.hpp" />
-    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\API\LayerMask.hpp" />
-    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\API\Object.hpp" />
-    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\API\Rigidbody.hpp" />
-    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\API\Transform.hpp" />
-    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\Defines.hpp" />
-    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\Obfuscators.hpp" />
-    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\Structures\Engine.hpp" />
-    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\Structures\il2cpp.hpp" />
-    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\Structures\il2cppArray.hpp" />
-    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\Structures\il2cppDictionary.hpp" />
-    <ClInclude Include="Libraries\IL2CPP_Resolver\Unity\Structures\System_String.hpp" />
-    <ClInclude Include="Libraries\IL2CPP_Resolver\Utils\Hash.hpp" />
-    <ClInclude Include="Libraries\IL2CPP_Resolver\Utils\Helper.hpp" />
-    <ClInclude Include="Libraries\IL2CPP_Resolver\Utils\VTable.hpp" />
     <ClInclude Include="Libraries\imgui\backends\imgui_impl_dx11.h" />
     <ClInclude Include="Libraries\imgui\backends\imgui_impl_win32.h" />
     <ClInclude Include="Libraries\imgui\imconfig.h" />
@@ -306,6 +286,7 @@
     <ClInclude Include="Module\ModuleManager.h" />
     <ClInclude Include="Renderer\D2DRenderer.h" />
     <ClInclude Include="Renderer\Effect\Blur.h" />
+    <ClInclude Include="Utils\Math.h" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="Libraries\freetype\freetype.lib" />

@@ -1,8 +1,3 @@
 ﻿  モジュール依存関係のソースをスキャンしています...
-  Blur.cpp
-  libMinHook.x64.lib(hook.obj) : MSIL .netmodule または /GL を伴ってコンパイルされたモジュールが見つかりました。/LTCG を使用して再開始してください。リンカーのパフォーマンスを向上させるためには、コマンドラインに /LTCG を追加してください。
-LINK : warning LNK4075: /INCREMENTAL は /LTCG の指定によって無視されます。
-LINK : warning LNK4098: defaultlib 'LIBCMT' は他のライブラリの使用と競合しています。/NODEFAULTLIB:library を使用してください。
-  コード生成しています。
-  コード生成が終了しました。
-  Ignite.vcxproj -> C:\Users\nosas\source\repos\Ignite\x64\Debug\Ignite.dll
+  SDK.cpp
+C:\Users\nosas\source\repos\Ignite\Ignite\Game\SDK\SDK.cpp(3,1): error C1083: include ファイルを開けません。'IL2CPP_Resolver/IL2CPP_Resolver.hpp':No such file or directory

@@ -7,5 +7,5 @@ namespace D2DRenderer
 
 	void UpdateBlur();
 
-	void RenderBlurRect(D2D1_ROUNDED_RECT rect);
+	void RenderBlurRect(D2D1_ROUNDED_RECT rect, float amount);
 }
